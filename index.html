@@ -5,25 +5,46 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Biology, Sea, Marine Biology, Ecology, Science, Research">
     </head>
     <body>
-        <h1>Miguel Guerreiro</h1>
-        <video src="resources/videos/" muted loop autoplay></video>
-        <div class="text">
-            Welcome to my homepage, here you can see all the information of the current projects I am involved in, the ones I have been in the past, Pictures that I would like to share with you about my research, a small Bio so you know me better, and finally, how to reach me.
-        </div>
+        <section class="showcase">
+            <header>
+              <h2 class="logo">Miguel Guerreiro</h2>
+              <div class="toggle"></div>
+            </header>
+            <video src="resources/videos/" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Welcome to my homepage</h2> 
+                <h3>Here you can see all the information of the current projects I am involved in</h3>
+                <p>the ones I have been in the past, Pictures that I would like to share with you about my research, a small Bio so you know me better, and finally, how to reach me.</p>
+                <a href="#">Explore</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+            </ul>
+        </section>
         <div class="menu">
-        	<ul>
-        		<li><a href="">option</a></li>
-        	</ul>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="pictures.html">Pictures</a></li>
+                <li><a href="#">Bio/Curriculum Vitae</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
         </div>
-        <ul class="social">
-        	<li><img src="resources/images/" alt=""></li>
-        	<li><img src="resources/images/" alt=""></li>
-        	<li><img src="resources/images/" alt=""></li>
-        </ul>
-        <div id="foot">
-            Miguel Guerreiro, 2021
-        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('active');
+              showcase.classList.toggle('active');
+            })
+        </script>
     </body>
 </html>
