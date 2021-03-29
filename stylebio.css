@@ -265,6 +265,23 @@ section .container > *{
   color: #03a9f4; 
 }
 
+.showcase{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.showcase.active{
+  right: 300px;
+}
 
 @media (max-width: 850px){
     section .container{
