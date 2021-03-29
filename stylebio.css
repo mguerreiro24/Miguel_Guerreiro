@@ -36,7 +36,7 @@ header:after{
 
 .mountain1{
     position: absolute;
-    bottom: -100px;
+    bottom: -380px;
     width: 1500px;
     right: 0;
     z-index: 19;
@@ -49,7 +49,7 @@ header:after{
     left: -70px;
     z-index: 20;
 }
-
+/*
 .mountain2{
     position: absolute;
     width: 1100px;
@@ -65,14 +65,14 @@ header:after{
     right: 0;
     z-index: 17;
 }
-
+*/
 .sky{
     position: absolute;
     width: 2100px;
     bottom: 250px;
     right: 0;
 }
-
+/*
 nav{
     position: absolute;
     top: 0;
@@ -82,13 +82,13 @@ nav{
     z-index: 30;
     background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent)
 }
-
+*/
 nav .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/*
 .logo{
     color: #fff;
     font-size: 1.1rem;
@@ -135,7 +135,7 @@ nav .container{
 .bar:after{
     transform: translateY(8px);
 }
-
+*/
 .big-title{
     position: absolute;
     z-index: 30;
@@ -209,6 +209,28 @@ section .container > *{
 
 .opacity{
     opacity: 0;
+}
+/*new insert*/
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(resources/images/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+  z-index: 21;
+}
+.toggle.active
+{
+  background: url(resources/images/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+  z-index: 21;
 }
 
 @media (max-width: 850px){
