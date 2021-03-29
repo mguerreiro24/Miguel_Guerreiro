@@ -45,7 +45,7 @@ header:after{
 .person{
     position: absolute;
     width: 650px;
-    bottom: -100px;
+    bottom: -50px;
     left: -70px;
     z-index: 20;
 }
@@ -210,9 +210,12 @@ section .container > *{
 .opacity{
     opacity: 0;
 }
+
+
+
+
 /*new insert*/
-.toggle
-{
+.toggle{
   position: relative;
   width: 60px;
   height: 60px;
@@ -223,8 +226,8 @@ section .container > *{
   cursor: pointer;
   z-index: 21;
 }
-.toggle.active
-{
+
+.toggle.active{
   background: url(resources/images/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
@@ -232,6 +235,36 @@ section .container > *{
   cursor: pointer;
   z-index: 21;
 }
+
+.menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul{
+  position: relative;
+}
+
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+
+.menu ul li a:hover{
+  color: #03a9f4; 
+}
+
 
 @media (max-width: 850px){
     section .container{
