@@ -36,8 +36,8 @@ header:after{
 
 .mountain1{
     position: absolute;
-    bottom: -380px;
-    width: 1500px;
+    bottom: -640px;
+    width: 2100px;
     right: 0;
     z-index: 19;
 }
@@ -45,7 +45,7 @@ header:after{
 .person{
     position: absolute;
     width: 650px;
-    bottom: -380px;
+    bottom: -100px;
     left: -70px;
     z-index: 20;
 }
