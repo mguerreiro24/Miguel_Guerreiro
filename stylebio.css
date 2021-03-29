@@ -278,11 +278,12 @@ section .container > *{
   transition: 0.5s;
   z-index: 2;
 }
+*/
 
 .showcase.active{
   right: 300px;
 }
-*/
+
 @media (max-width: 850px){
     section .container{
         grid-template-columns: 1fr;
