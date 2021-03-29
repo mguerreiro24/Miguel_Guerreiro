@@ -45,7 +45,7 @@ header:after{
 .person{
     position: absolute;
     width: 650px;
-    bottom: -50px;
+    bottom: -80px;
     left: -70px;
     z-index: 20;
 }
@@ -264,7 +264,7 @@ section .container > *{
 .menu ul li a:hover{
   color: #03a9f4; 
 }
-
+/*
 .showcase{
   position: absolute;
   right: 0;
@@ -282,7 +282,7 @@ section .container > *{
 .showcase.active{
   right: 300px;
 }
-
+*/
 @media (max-width: 850px){
     section .container{
         grid-template-columns: 1fr;
