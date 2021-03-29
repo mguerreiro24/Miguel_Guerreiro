@@ -50,22 +50,6 @@ header:after{
     z-index: 20;
 }
 
-.mountain2{
-    position: absolute;
-    width: 1100px;
-    bottom: -100px;
-    left: 0;
-    z-index: 18;
-}
-
-.mountain3{
-    position: absolute;
-    width: 900px;
-    bottom: 150px;
-    right: 0;
-    z-index: 17;
-}
-
 .sky{
     position: absolute;
     width: 2100px;
