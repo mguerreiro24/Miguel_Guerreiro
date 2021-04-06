@@ -374,13 +374,13 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
-  background: #828762 url(../../resources/images/gebco.jpg) no-repeat center center;
+  background: #828762 url(../../resources/images/argo.png) no-repeat center center;
   background-size: cover;
 }
 
 .cd-projects-previews li:nth-of-type(3) a,
 .cd-projects > li:nth-of-type(3) .preview-image {
-  background: #835531 url(../../resources/images/argo.png) no-repeat center center;
+  background: #835531 url(../../resources/images/gebco.jpg) no-repeat center center;
   background-size: cover;
 }
 
