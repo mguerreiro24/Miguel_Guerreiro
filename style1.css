@@ -103,6 +103,10 @@ a{
   letter-spacing: 2px;
 }
 
+.timeline-content img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
